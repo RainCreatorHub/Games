@@ -3,7 +3,7 @@ local c = p.Character or p.CharacterAdded:Wait()
 local h = c:WaitForChild("HumanoidRootPart")
 local ativo = false
 local p2 = nil
-local v = 0.5
+local v = 0.3
 
 local s = Instance.new("ScreenGui")
 s.Name = "PlataformUI"
