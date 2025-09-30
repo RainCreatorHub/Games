@@ -1,4 +1,5 @@
---[[ Tu é passa fome?
+--[[ 
+  Tu é passa fome?
   Tu veio aqui só pra ver se consegue pegar a source?
   Nem adianta ver os outros tão tudo Obfuscado.
 ]]
@@ -9,7 +10,7 @@ local window = WindUI:CreateWindow({
     Title = "Rain hub | Flee The Facility",
     Icon = "door-open",
     Author = "by Rain creator hub",
-    Folder = "RainHubConfig",
+    Folder = "Rain Hub",
     Size = UDim2.fromOffset(580, 460),
     Transparent = true,
     Theme = "Dark",
@@ -22,12 +23,12 @@ local window = WindUI:CreateWindow({
         Enabled = true,
         Anonymous = false,
         Callback = function()
-            print("clicked")
+            
         end,
     },
     KeySystem = {
         Key = { "Rain()Hub", "@no.o.foxyy3", "Não é o foxyy" },
-        Note = "Obrigado por usar o Rain hub :D",
+        Note = "Obrigado por usar o Rain hub :D { Rain()Hub } é a key",
         Thumbnail = {
             Image = "rbxassetid://",
             Title = "No thumbnail",
